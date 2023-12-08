@@ -1,5 +1,32 @@
-template-repository (1.0-1) unstable; urgency=medium
+golang-github-eapache-go-xerial-snappy (0.0~git20180814.776d571-1) unstable; urgency=medium
 
-  * Initial release
+  * Team upload
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+  [ Alexandre Viau ]
+  * Point Vcs-* urls to salsa.debian.org.
+
+  [ Debian Janitor ]
+  * Bump debhelper from old 11 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Apply multi-arch hints.
+
+  [ Shengjing Zhu ]
+  * Change section to golang
+  * Update maintainer to team+pkg-go@tracker.debian.org
+  * Bump debhelper-compat to 13
+  * Replace transitional package golang-snappy-go-dev
+  * Add Rules-Requires-Root
+  * Update Standards-Version to 4.6.2 (no changes)
+  * Add uscan watch file
+  * New upstream version 0.0~git20180814.776d571
+
+ -- Shengjing Zhu <zhsj@debian.org>  Sun, 01 Jan 2023 17:22:02 +0800
+
+golang-github-eapache-go-xerial-snappy (0.0~git20160609.bb955e0-1) unstable; urgency=medium
+
+  * Initial release (Closes: #840626)
+    Thanks to Guillem Jover for his initial work.
+
+ -- Christos Trochalakis <ctrochalakis@debian.org>  Wed, 24 Jan 2018 13:00:44 +0200
